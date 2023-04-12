@@ -45,7 +45,7 @@ export default {
             <p><i class="fa-solid fa-life-ring"></i></p>
         </div>
         <div class="wave">
-            <img src="../../public/Wave-1.png" alt="wave">
+            <img class="img-wave" src="../../public/Wave-1.png" alt="wave">
         </div>
 
         <div class="message">
@@ -196,6 +196,15 @@ export default {
         position: absolute;
         bottom: -5px;
         left: 0;
+
+
+
+        .img-wave {
+            width: 100%;
+
+
+
+        }
     }
 
 

@@ -50,11 +50,46 @@ export default {
     <!-- FINE SECTION -->
 
     <!-- SECONDA SECTION -->
+    <section class="faculties">
+      <div class="title">
+        <h1>Faculties available at EduPrime</h1>
+        <p>A sigle university with a load of coursers,tailored to satisfy any student's needs</p>
+      </div>
+
+      <div class="container-box">
+        <div class="box">
+        </div>
+
+        <div class="box">
+          <img class="img" src="../public/Gavel-v2.png" alt="Gavel">
+        </div>
 
 
-    <div class="title">
-      <h1>Faculties available at EduPrime</h1>
-    </div>
+        <div class="box">
+          <img class="img" src="../public/Gavel-v2.png" alt="Gavel">
+
+        </div>
+
+        <div class="box">
+          <img class="img" src="../public/Gavel-v2.png" alt="Gavel">
+
+        </div>
+
+        <div class="box">
+          <img class="img" src="../public/Gavel-v2.png" alt="Gavel">
+
+        </div>
+
+        <div class="box">
+          <img class="img" src="../public/Gavel-v2.png" alt="Gavel">
+
+        </div>
+      </div>
+
+    </section>
+
+
+
 
     <!-- FINE SECONDA SECTION -->
 
@@ -114,7 +149,7 @@ export default {
 
 .container-right {
 
-  width: 50%;
+  width: 30%;
   position: relative;
   height: 200px;
   display: flex;
@@ -127,7 +162,7 @@ export default {
   height: 300px;
   z-index: 999;
   position: absolute;
-  right: -30px;
+  right: 0px;
 
 
 
@@ -136,8 +171,45 @@ export default {
 .home {
   height: 400px;
   position: absolute;
-  right: -250px;
+
   top: -80px;
 
+}
+
+.title {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.title p {
+  width: 20%;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.container-box {
+  height: 200px;
+  display: flex;
+
+
+
+  width: calc(100% / 7);
+
+
+
+  .box {
+
+    border: 1px solid black;
+
+  }
+
+  .img {
+    height: 200px;
+    padding: 30px;
+
+
+
+  }
 }
 </style>
