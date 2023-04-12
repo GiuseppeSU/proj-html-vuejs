@@ -1,11 +1,20 @@
 <script>
 import MyHeader from './components/MyHeader.vue';
 import MyFooter from './components/MyFooter.vue';
+import MyMain from './components/MyMain.vue';
+
+
+
+
+
 
 export default {
   components: {
     MyHeader,
-    MyFooter
+    MyFooter,
+    MyMain
+
+
 
 
   },
@@ -113,10 +122,14 @@ export default {
       <img class="wave-red" src="../public/svg-0.svg" alt="">
     </div>
     <!-- FINE TERZA SECTION -->
-
-
-
+    <!--  QUARTA SECTION -->
+    <MyMain></MyMain>
+    <!-- FINE QUARTA SECTION -->
   </main>
+
+
+
+
 
   <MyFooter></MyFooter>
 </template>
@@ -247,7 +260,7 @@ export default {
 }
 
 .hummer {
-  margin-top: 50px;
+  margin: 50px;
   display: flex;
   margin-left: 50px;
 
@@ -296,6 +309,6 @@ export default {
 .wave-red {
   width: 100%;
   position: absolute;
-  bottom: -90px;
+  bottom: 0px;
 }
 </style>
