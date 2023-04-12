@@ -43,6 +43,16 @@ export default {
             <img src="../../public/Wave-1.png" alt="wave">
         </div>
 
+        <div class="message">
+            <p>Purchase Eduprime on Envato Market</p>
+
+        </div>
+        <div class="drop">
+            <i class="fa-solid fa-caret-down"></i>
+        </div>
+
+
+
     </div>
 </template>
 
@@ -162,6 +172,29 @@ export default {
         bottom: -5px;
         left: 0;
     }
+
+
+    .message {
+
+        width: 200px;
+        text-align: center;
+        background-color: black;
+        color: white;
+        position: absolute;
+        bottom: 0px;
+
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .drop {
+        position: absolute;
+        bottom: -12px;
+        left: 85px;
+    }
+
 
 
 }
