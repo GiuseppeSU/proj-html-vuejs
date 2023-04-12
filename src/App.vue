@@ -57,34 +57,43 @@ export default {
       </div>
 
       <div class="container-box">
-        <div class="box">
-        </div>
-
-        <div class="box">
-          <img class="img" src="../public/Gavel-v2.png" alt="Gavel">
-        </div>
 
 
         <div class="box">
           <img class="img" src="../public/Gavel-v2.png" alt="Gavel">
+          <h3>Low Faculty</h3>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+
+
+
+        <div class="box">
+          <img class="img" src="../public/Coins-tabs-v2.png" alt="Coins">
+          <h3>Economy</h3>
 
         </div>
 
         <div class="box">
-          <img class="img" src="../public/Gavel-v2.png" alt="Gavel">
+          <img class="img" src="../public/Medicine-tabs-v2.png" alt="Medicine">
+          <h3>Medicine</h3>
 
         </div>
 
         <div class="box">
-          <img class="img" src="../public/Gavel-v2.png" alt="Gavel">
+          <img class="img" src="../public/Computer-tabs-v2.png" alt="Computer">
+          <h3>Computer Science</h3>
 
         </div>
 
         <div class="box">
-          <img class="img" src="../public/Gavel-v2.png" alt="Gavel">
+          <img class="img" src="../public/Palette-tabs-v2.png" alt="Palette">
+          <h3>Graphic Design</h3>
 
         </div>
+
       </div>
+
+
 
     </section>
 
@@ -169,10 +178,10 @@ export default {
 }
 
 .home {
-  height: 400px;
+  height: 370px;
   position: absolute;
-
-  top: -80px;
+  top: -50px;
+  right: -202px;
 
 }
 
@@ -189,26 +198,37 @@ export default {
 }
 
 .container-box {
-  height: 200px;
   display: flex;
-
-
-
-  width: calc(100% / 7);
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 
 
 
   .box {
-
     border: 1px solid black;
+    text-align: center;
+    padding: 30px;
+    position: relative;
 
   }
 
+  .box i {
+    position: absolute;
+    bottom: -23px;
+    font-size: 35px;
+    left: 100px;
+    color: variables.$bgcolor-salmon;
+  }
+
+  .box h3 {
+    color: variables.$bgcolor-salmon;
+  }
+
   .img {
-    height: 200px;
+    height: 150px;
     padding: 30px;
-
-
 
   }
 }
