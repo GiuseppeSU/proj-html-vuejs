@@ -88,19 +88,31 @@ export default {
         <div class="box">
           <img class="img" src="../public/Palette-tabs-v2.png" alt="Palette">
           <h3>Graphic Design</h3>
-
         </div>
+      </div>
+    </section>
+    <!-- FINE SECONDA SECTION -->
+
+    <!-- TERZA SECTION -->
+    <div class="hummer">
+      <div class="hummer-left">
+        <img class="martello" src="../public/Gavel-Illustration-e1556884768193.png" alt="">
 
       </div>
-
-
-
-    </section>
-
-
-
-
-    <!-- FINE SECONDA SECTION -->
+      <div class="hummer-right">
+        <div class="hummer-text">
+          <h1>Law Faculty</h1>
+          <p>Learning from world-leading academics and practitioners, you'll not only receive an outstanding grounding in
+            the theory of law, but you will be able to understand how those principles are applied in practice trough a
+            range of student-led activities and competitions </p>
+          <button>Read More</button>
+        </div>
+      </div>
+    </div>
+    <div class="container-red">
+      <img class="wave-red" src="../public/svg-0.svg" alt="">
+    </div>
+    <!-- FINE TERZA SECTION -->
 
 
 
@@ -114,11 +126,12 @@ export default {
 @use './styles/partials/variables.scss';
 
 .container-main {
-  width: 75%;
+  width: 55%;
   margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+
 }
 
 .container-left {
@@ -136,13 +149,13 @@ export default {
 }
 
 .text h1 {
-  width: 55%;
+  width: 40%;
 
 }
 
 .text p {
   margin-top: 20px;
-  width: 80%;
+  width: 70%;
 }
 
 .btn-yellow {
@@ -167,21 +180,21 @@ export default {
 }
 
 .graduation {
-  margin-top: 20px;
-  height: 300px;
+
+  height: 350px;
   z-index: 999;
   position: absolute;
-  right: 0px;
+  right: -100px;
 
 
 
 }
 
 .home {
-  height: 370px;
+  height: 500px;
   position: absolute;
   top: -50px;
-  right: -202px;
+  right: -368px;
 
 }
 
@@ -231,5 +244,58 @@ export default {
     padding: 30px;
 
   }
+}
+
+.hummer {
+  margin-top: 50px;
+  display: flex;
+  margin-left: 50px;
+
+}
+
+.hummer-left {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+.martello {
+  height: 200px;
+}
+
+.hummer-right {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.hummer-text p {
+  margin-top: 20px;
+  width: 60%;
+}
+
+.hummer-text button {
+  padding: 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: variables.$bgcolor-salmon;
+  color: white;
+  margin-top: 20px;
+  width: 150px;
+
+}
+
+.container-red {
+  position: relative;
+}
+
+.wave-red {
+  width: 100%;
+  position: absolute;
+  bottom: -90px;
 }
 </style>
