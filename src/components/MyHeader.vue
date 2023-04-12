@@ -39,6 +39,11 @@ export default {
             <button class="btn-yellow"><i class="fa-solid fa-magnifying-glass"></i>VIEW COURSES</button>
             <button class="btn-white"><i class="fa-solid fa-user-plus"></i>Apply for universities</button>
         </div>
+        <div class="item-left">
+            <p><i class="fa-solid fa-cart-shopping"></i></p>
+            <p><i class="fa-solid fa-book-open"></i></p>
+            <p><i class="fa-solid fa-life-ring"></i></p>
+        </div>
         <div class="wave">
             <img src="../../public/Wave-1.png" alt="wave">
         </div>
@@ -59,6 +64,7 @@ export default {
 
 <style lang="scss">
 @use '../styles/partials/variables.scss';
+@use '../styles/general.scss';
 
 
 .container {
@@ -79,6 +85,7 @@ export default {
     .ms_foto {
         height: 50px;
         margin-left: 30px;
+        margin-top: 20px;
 
     }
 
@@ -90,7 +97,7 @@ export default {
     }
 
     li {
-        margin-left: 15px;
+        margin-left: 30px;
         margin-top: 10px;
     }
 
@@ -161,9 +168,28 @@ export default {
         text-align: center;
     }
 
+    .text h1 {
+        margin: 30px 0px;
+    }
+
     .text p {
         width: 27%;
         margin: auto;
+    }
+
+    .item-left {
+        background-color: variables.$bgcolor-yellow;
+        width: 40px;
+
+
+        text-align: center;
+    }
+
+    .item-left i {
+        color: white;
+        margin-right: 8px;
+
+        padding: 8px 0px;
     }
 
 
@@ -182,6 +208,7 @@ export default {
         color: white;
         position: absolute;
         bottom: 0px;
+        left: 25px;
 
 
         p {
@@ -192,7 +219,7 @@ export default {
     .drop {
         position: absolute;
         bottom: -12px;
-        left: 85px;
+        left: 114px;
     }
 
 
