@@ -14,7 +14,16 @@ export default {
 }
 </script>
 
-<template></template>
+<template>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="" alt="">
+
+            </div>
+        </div>
+    </div>
+</template>
 
 
 <style lang="scss">
