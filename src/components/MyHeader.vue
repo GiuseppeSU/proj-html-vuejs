@@ -26,7 +26,7 @@ export default {
                 <li>Pages<i class="fa-solid fa-caret-down"></i></li>
                 <li class="">Contact</li>
                 <li class="">Purchase</li>
-                <button class="btn-yellow">VIEW COURSES</button>
+                <button class="btn-navbar">VIEW COURSES</button>
             </ul>
         </div>
 
@@ -38,7 +38,9 @@ export default {
         <div class="btns">
             <button class="btn-yellow"><i class="fa-solid fa-magnifying-glass"></i>VIEW COURSES</button>
             <button class="btn-white"><i class="fa-solid fa-user-plus"></i>Apply for universities</button>
-
+        </div>
+        <div class="wave">
+            <img src="../../public/Wave-1.png" alt="wave">
         </div>
 
     </div>
@@ -51,9 +53,11 @@ export default {
 
 .container {
 
-    //background-image: url(../../public/theme_slider2_bg-1.jpg);
-    //background-size: cover;
+    background-image: url(../../public/theme_slider2_bg-1.jpg);
+    background-size: cover;
     background-color: variables.$bgcolor-salmon;
+    height: 550px;
+    position: relative;
 
 
     .header {
@@ -95,10 +99,22 @@ export default {
         margin-top: 30px;
     }
 
-    .btn-yellow {
+    .btn-navbar {
         background-color: variables.$bgcolor-yellow;
         border: none;
         margin-left: 20px;
+        border-radius: 20px;
+        padding: 14px;
+        color: white;
+        font-size: 12px;
+        width: 150px;
+        margin-right: 30px;
+
+    }
+
+    .btn-yellow {
+        background-color: variables.$bgcolor-yellow;
+        border: none;
         border-radius: 20px;
         padding: 14px;
         color: white;
@@ -138,6 +154,13 @@ export default {
     .text p {
         width: 27%;
         margin: auto;
+    }
+
+
+    .wave {
+        position: absolute;
+        bottom: -5px;
+        left: 0;
     }
 
 
