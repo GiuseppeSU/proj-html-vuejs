@@ -309,6 +309,6 @@ export default {
 .wave-red {
   width: 100%;
   position: absolute;
-  bottom: 0px;
+  bottom: -1px;
 }
 </style>
