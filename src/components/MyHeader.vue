@@ -169,7 +169,7 @@ export default {
     }
 
     .text h1 {
-        margin: 30px 0px;
+        margin: 20px 0px;
     }
 
     .text p {
@@ -180,9 +180,8 @@ export default {
     .item-left {
         background-color: variables.$bgcolor-yellow;
         width: 40px;
-
-
         text-align: center;
+
     }
 
     .item-left i {

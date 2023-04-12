@@ -25,7 +25,40 @@ export default {
 
 <template>
   <MyHeader></MyHeader>
+  <!-- PRIMA SECTION -->
   <main>
+    <section>
+      <div class="container-main">
+        <div class="container-left">
+          <img class="book" src="../public/Books-icon.png" alt="Books">
+          <div class="text">
+            <h1>Thousands of courses for any type of student</h1>
+            <p>At EduPrime, it doesn't matter what domain you wish to pursue a career in . Here you can find a course that
+              satisfies your needs within a click away and applies for a course in a matter of minutes. EduPrime is ranked
+              as
+              the most versatile university in the world, thanks to the number of course it provides.</p>
+            <button class="btn-yellow">Browse throught courses</button>
+          </div>
+        </div>
+        <div class="container-right">
+          <img class="graduation" src="../public/Graduation-Illustration.png" alt="Graduation">
+          <img class="home" src="../public/home-background.png" alt="Home background">
+        </div>
+      </div>
+    </section>
+
+    <!-- FINE SECTION -->
+
+    <!-- SECONDA SECTION -->
+
+
+    <div class="title">
+      <h1>Faculties available at EduPrime</h1>
+    </div>
+
+    <!-- FINE SECONDA SECTION -->
+
+
 
   </main>
 
@@ -33,5 +66,78 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use './styles/general.scss'
+@use './styles/general.scss';
+@use './styles/partials/variables.scss';
+
+.container-main {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-left {
+  width: 70%;
+  margin-top: 70px;
+
+}
+
+.book {
+  height: 40px;
+}
+
+.text {
+  margin: 20px 0px;
+}
+
+.text h1 {
+  width: 55%;
+
+}
+
+.text p {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.btn-yellow {
+  background-color: variables.$bgcolor-yellow;
+  border: none;
+  border-radius: 20px;
+  padding: 14px;
+  color: white;
+  font-size: 12px;
+  width: 180px;
+  margin-top: 30px;
+}
+
+.container-right {
+
+  width: 50%;
+  position: relative;
+  height: 200px;
+  display: flex;
+  justify-content: end;
+
+}
+
+.graduation {
+  margin-top: 20px;
+  height: 300px;
+  z-index: 999;
+  position: absolute;
+  right: -30px;
+
+
+
+}
+
+.home {
+  height: 400px;
+  position: absolute;
+  right: -250px;
+  top: -80px;
+
+}
 </style>
