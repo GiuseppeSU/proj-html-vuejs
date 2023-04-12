@@ -1,2 +1,7 @@
-@use 'bootstrap';
 @use './partials/variables.scss';
+
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
