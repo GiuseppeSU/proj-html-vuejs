@@ -227,7 +227,7 @@ export default {
 
 .container-box {
   display: flex;
-  border: 1px solid black;
+
   justify-content: center;
   align-items: center;
   margin-top: 20px;
@@ -235,7 +235,7 @@ export default {
 
 
   .box {
-    border: 1px solid black;
+    border: 1px solid rgb(144, 144, 143);
     text-align: center;
     padding: 30px;
     position: relative;
@@ -262,7 +262,7 @@ export default {
 }
 
 .hummer {
-  margin: 50px;
+  margin: 100px 50px;
   display: flex;
   margin-left: 50px;
 

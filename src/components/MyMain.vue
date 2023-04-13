@@ -111,6 +111,7 @@ export default {
 
 .clock {
     height: 50px;
+    margin-bottom: 10px;
 }
 
 .uni-text h1 {
@@ -142,7 +143,7 @@ export default {
     text-align: center;
     color: white;
     position: absolute;
-    right: 525px;
+    right: 520px;
     top: 20px;
     font-size: 13px;
 }
@@ -180,7 +181,7 @@ export default {
     text-align: center;
     color: white;
     position: absolute;
-    left: 400px;
+    left: 385px;
     top: 250px;
     font-size: 13px;
 }
@@ -199,7 +200,7 @@ export default {
     text-align: center;
     color: white;
     position: absolute;
-    right: 355px;
+    right: 335px;
     top: 250px;
     font-size: 13px;
 }
@@ -248,6 +249,7 @@ export default {
 
 .card i {
     margin: 10px;
+    color: rgb(217, 218, 221);
 }
 
 .card span {
@@ -262,7 +264,7 @@ export default {
     margin: 10px 0px;
     position: absolute;
     bottom: -27px;
-    left: 150px;
+    left: 145px;
 
 }
 

@@ -50,7 +50,7 @@ export default {
                 <img class="my_img w-100" src="../../public/partner-7.png" alt="Partner 2">
             </div>
         </div>
-        <img class="ms_wave" src="../../public/background-wave3.png" alt="wave">
+        <img class="ms_wave " src="../../public/background-wave3.png" alt="wave">
 
     </div>
 </template>
@@ -88,11 +88,11 @@ export default {
 .my_icon {
     background-color: variables.$bgcolor-yellow;
     color: white;
-    padding: 20px;
+    padding: 16px;
     border-radius: 30px;
     position: absolute;
-    right: 190px;
-    top: 20px;
+    right: 173px;
+    top: 25px;
 }
 
 .my_img {
