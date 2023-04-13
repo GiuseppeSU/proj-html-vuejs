@@ -3,18 +3,15 @@ import MyHeader from './components/MyHeader.vue';
 import MyFooter from './components/MyFooter.vue';
 import MyMain from './components/MyMain.vue';
 import MyCourses from './components/MyCourses.vue';
-
-
-
-
-
+import MySubscribe from './components/MySubscribe.vue';
 
 export default {
   components: {
     MyHeader,
     MyFooter,
     MyMain,
-    MyCourses
+    MyCourses,
+    MySubscribe
 
 
 
@@ -126,8 +123,10 @@ export default {
     <!-- FINE TERZA SECTION -->
     <!--  QUARTA SECTION -->
     <MyMain></MyMain>
-    <MyCourses></MyCourses>
     <!-- FINE QUARTA SECTION -->
+    <MyCourses></MyCourses>
+    <MySubscribe></MySubscribe>
+
   </main>
 
 
