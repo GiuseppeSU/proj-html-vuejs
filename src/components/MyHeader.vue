@@ -16,48 +16,51 @@ export default {
 
 <template>
     <div class="container">
-        <div class="header">
-            <img class=ms_foto src=" ../../public/theme_eduprime_logo.png" alt="">
-            <ul>
-                <li>Home<i class="fa-solid fa-caret-down"></i></li>
-                <li>Courses<i class="fa-solid fa-caret-down"></i></li>
-                <li>About Us</li>
-                <li>News<i class="fa-solid fa-caret-down"></i></li>
-                <li>Pages<i class="fa-solid fa-caret-down"></i></li>
-                <li class="">Contact</li>
-                <li class="">Purchase</li>
-                <button class="btn-navbar">VIEW COURSES</button>
-            </ul>
-        </div>
-
-        <div class="text">
-            <h1>Key to your sucess</h1>
-            <p>EduPrime is the most versatile WordPress theme for educational pirposes,showcasing
-                universities,courses,secondary schol etc.</p>
-        </div>
-        <div class="btns">
-            <button class="btn-yellow"><i class="fa-solid fa-magnifying-glass"></i>VIEW COURSES</button>
-            <button class="btn-white"><i class="fa-solid fa-user-plus"></i>Apply for universities</button>
-        </div>
-        <div class="item-left">
-            <p><i class="fa-solid fa-cart-shopping"></i></p>
-            <p><i class="fa-solid fa-book-open"></i></p>
-            <p><i class="fa-solid fa-life-ring"></i></p>
-        </div>
-        <div class="wave">
-            <img class="img-wave" src="../../public/Wave-1.png" alt="wave">
-        </div>
-
-        <div class="message">
-            <p>Purchase Eduprime on Envato Market</p>
-
-        </div>
-        <div class="drop">
-            <i class="fa-solid fa-caret-down"></i>
-        </div>
+        <div class="cover">
 
 
+            <div class="header">
+                <img class=ms_foto src=" ../../public/theme_eduprime_logo.png" alt="">
+                <ul>
+                    <li>Home<i class="fa-solid fa-caret-down"></i></li>
+                    <li>Courses<i class="fa-solid fa-caret-down"></i></li>
+                    <li>About Us</li>
+                    <li>News<i class="fa-solid fa-caret-down"></i></li>
+                    <li>Pages<i class="fa-solid fa-caret-down"></i></li>
+                    <li class="">Contact</li>
+                    <li class="">Purchase</li>
+                    <button class="btn-navbar">VIEW COURSES</button>
+                </ul>
+            </div>
 
+            <div class="text">
+                <h1>Key to your sucess</h1>
+                <p>EduPrime is the most versatile WordPress theme for educational pirposes,showcasing
+                    universities,courses,secondary schol etc.</p>
+            </div>
+            <div class="btns">
+                <button class="btn-yellow"><i class="fa-solid fa-magnifying-glass"></i>VIEW COURSES</button>
+                <button class="btn-white"><i class="fa-solid fa-user-plus"></i>Apply for universities</button>
+            </div>
+            <div class="item-left">
+                <p><i class="fa-solid fa-cart-shopping"></i></p>
+                <p><i class="fa-solid fa-book-open"></i></p>
+                <p><i class="fa-solid fa-life-ring"></i></p>
+            </div>
+            <div class="wave">
+                <img class="img-wave" src="../../public/Wave-1.png" alt="wave">
+            </div>
+
+            <div class="message">
+                <p>Purchase Eduprime on Envato Market</p>
+
+            </div>
+            <div class="drop">
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+
+
+        </div>
     </div>
 </template>
 
@@ -69,23 +72,32 @@ export default {
 
 .container {
 
+
     background-image: url(../../public/theme_slider2_bg-1.jpg);
     background-size: cover;
     background-color: variables.$bgcolor-salmon;
     height: 550px;
     position: relative;
 
+    .cover {
+        background-color: rgba(208, 96, 97, 0.93);
+        height: 100%;
+
+    }
+
 
     .header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
     }
 
     .ms_foto {
         height: 50px;
         margin-left: 30px;
         margin-top: 20px;
+
 
     }
 
